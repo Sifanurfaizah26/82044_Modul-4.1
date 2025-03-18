@@ -79,6 +79,7 @@ fun OverviewBody(onScreenChange: (RallyScreen) -> Unit = {}) {
         Spacer(Modifier.height(RallyDefaultPadding))
         BillsCard(onScreenChange)
     }
+
 }
 
 /**
